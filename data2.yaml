@@ -1,7 +1,0 @@
-login: 
-- userName: 'peng1'
-  userPwd: aaa
-  code: 111
-- userName: 'peng2'
-  userPwd: bbb
-  code: 222
