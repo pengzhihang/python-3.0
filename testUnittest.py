@@ -29,6 +29,7 @@ if __name__=='__main__':
   ts = unittest.TestSuite()#实例化
   #按类加载全部testxxx测试用例
   ts.addTest(unittest.TestLoader().loadTestsFromTestCase(HtmlReport))
+  
   #按函数加载testxxx测试用例
   #ts.addTest(HtmlReport('test_1'))
   #打开文件位置，如果没有则新建一个文件

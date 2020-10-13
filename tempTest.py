@@ -1,17 +1,16 @@
+#coding:utf-8
+
 '''
 Created on 2020-10-12
 
 @author: ZHQC-041
 
 '''
+import json
 
-for i in range(10):
-    print(i)
-    
-i=[1,'a','b',6]
+a={'aaa':123,'bbb':'bbb','ccc':['a','b','c',1,2,3]}
 
-for a in i:
-    print(a)
+b=json.dumps(a)
 
-if __name__ == '__main__':
-    pass
+print(b)
+

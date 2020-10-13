@@ -10,10 +10,8 @@ import HTMLTestRunner
 class mytest(unittest.TestCase):
     
     @file_data('data.yaml')
-    
     @unpack
     def test_case_01(self,*args, **kwargs):
-
         print(kwargs['userName'])
         print(kwargs['userPwd'])
         print(kwargs['code'])
