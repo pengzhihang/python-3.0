@@ -1,9 +1,5 @@
-#!/usr/bin/python3
 #coding:utf-8
-'''
-Created on 2019年9月30日
-@author: EDZ
-'''
+
 import unittest
 import HTMLTestRunner
 import os
