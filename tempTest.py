@@ -6,20 +6,23 @@ Created on 2020-10-12
 @author: ZHQC-041
 
 '''
-import requests
-import os,sys
-import json
+import time
+from concurrent.futures import ProcessPoolExecutor
 
+ 
+# import requests
+# import os,sys
+# import json
+# 
+# 
+# a={'aaa':123,'bbb':'bbb','ccc':['a','b','c',1,2,3]}
+# 
+# b=json.dumps(a)
+# 
+# print(b)
+# 
+# print(os.name)
 
+aa='test'
 
-rg=requests.get('http://www.baidu.com')
-
-print(rg.content)
-
-a={'aaa':123,'bbb':'bbb','ccc':['a','b','c',1,2,3]}
-
-b=json.dumps(a)
-
-print(b)
-
-print(os.name)
+print(type(aa))
